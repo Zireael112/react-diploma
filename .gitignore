@@ -1,0 +1,57 @@
+.vscode
+# Django stuff
+/backend/.vscode
+/backend/venv/
+/backend/webstorage/db.sqlite3
+
+# Log files
+/backend/*.log
+/backend/webstorage/logs.log
+
+# Media files
+/backend/media/
+
+# build
+/backend/build/
+
+# Static files
+backend/**/staticfiles/
+backend/static/
+
+# .env file with sensible data
+/backend/.env
+
+# Python bytecode
+/backend/webstorage/__pycache__/
+/backend/**/__pycache__/
+/backend/**/migrations/__pycache__/
+
+# Ignore migration files
+/backend/**/migrations/0*.py
+
+/backend/.flake8
+
+# React.js stuff 
+
+# dependencies
+/frontend/node_modules
+
+
+# testing
+/frontend/coverage
+/frontend/reportWebVitals.js
+/frontend/setupTests.js
+
+# production
+/frontend/build
+
+# misc
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
